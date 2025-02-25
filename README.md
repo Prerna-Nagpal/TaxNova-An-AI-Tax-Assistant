@@ -1,6 +1,7 @@
 # TaxNova-An-AI-Tax-Assistant
 ## Click here to access TaxNova
 https://prerna-nagpal-taxnova-an-ai-tax-assistant-taxnovaapp-ud3jit.streamlit.app/
+https://drive.google.com/drive/folders/1T7RdAiHOQsg5MgAaEvT8exjiIShRJ8vU?usp=drive_link
 ## Problem Statement
 Tax filing is often a complex, time-consuming, and expensive process that forces individuals to rely on Chartered Accountants (CAs), adding unnecessary financial strain. Many taxpayers struggle to navigate the ever-changing tax laws, identify eligible deductions, and ensure accurate tax submissions. This lack of clarity results in errors, missed benefits, and costly penalties, making the process overwhelming and stressful. Without expert guidance, individuals are often left uncertain, leading to either overpayment or underpayment of taxes.
 Manual tax calculations further complicate the process, increasing the risk of inaccuracies. Traditional tax filing requires multiple steps, document verifications, and a deep understanding of regulations, making it difficult for salaried individuals to file taxes efficiently. The absence of real-time support makes it even harder to make informed financial decisions, leaving taxpayers frustrated and unsure of how to optimize their tax savings.
