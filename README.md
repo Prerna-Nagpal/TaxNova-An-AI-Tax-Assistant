@@ -15,12 +15,22 @@ To further simplify the process, a real-time AI-powered chatbot assists users by
 - **ITR Auto-Filing**: Seamlessly file Income Tax Returns.
 - **Export Chat Conversations**: Save important discussions in **PDF format** for future reference.
 
-## Tech Stack
-- **Frontend**: Streamlit
-- **AI Model**: Groq API (for chatbot)
-- **PDF Processing**: pdfplumber, regex
-- **Backend**: Python, pdfkit
-- **Deployment**: Streamlit Cloud / Other Hosting Platforms
+## Technologies Used
+## User Interface (UI):
+Built using Streamlit for an interactive, user-friendly tax filing experience.
+## AI Chatbot:
+Groq API – Provides intelligent, real-time responses to tax-related queries.
+Llama Cloud – Enhances natural language processing (NLP), enabling the chatbot to understand complex tax-related questions and generate accurate responses.
+Qdrant AI – A vector database that enhances semantic search and contextual memory, allowing efficient retrieval of tax laws, past user queries, and historical interactions.
+## Form 16/22 Processing:
+pdfplumber – Extracts text from PDF documents.
+Regex – Identifies and extracts key financial details like gross salary, TDS, and taxable income.
+## Tax Computation Engine:
+Custom Python scripts apply income tax slabs, deductions (80C, 80D, 24, etc.), and TDS verification to calculate tax liability or refunds.
+## Data Storage and Export:
+pdfkit API – Enables users to export their chat history as PDFs for future reference.
+Requests API – Fetches external tax-related information when needed.
+Dotenv – Securely manages API keys and environment variables.
 
 ## Installation & Setup
 1. **Clone the repository**:
