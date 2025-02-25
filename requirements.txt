@@ -1,5 +1,0 @@
-groq
-streamlit
-python-dotenv
-pdfkit
-pdfplumber
