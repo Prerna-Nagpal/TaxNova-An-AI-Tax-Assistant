@@ -8,9 +8,6 @@ import re
 import requests
 from datetime import datetime
 import pandas as pd
-st.write(st.secrets)  # Debugging: Prints all secrets
-st.write(st.secrets["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"])  # Prints the specific key if it exists
-# Initialize theme in session state if not already present
 if "theme" not in st.session_state:
     st.session_state.theme = "light"
 
@@ -239,6 +236,63 @@ def local_css():
         .stChatMessage div {
             color: #ffffff !important;
         }
+        
+        /* Enhanced File uploader styling specifically for dark mode */
+        .stFileUploader {
+            background-color: #000000 !important;
+        }
+
+        /* Target ALL elements within the file uploader */
+        .stFileUploader > div, 
+        .stFileUploader > div > div,
+        .stFileUploader > div > div > div,
+        .stFileUploader > div > div > div > div {
+            background-color: #000000 !important;
+            border-color: #444444 !important;
+            color: white !important;
+        }
+
+        /* Target the specific uploader box */
+        .css-1cpxqw2, .st-emotion-cache-1cpxqw2,
+        [data-testid="stFileUploader"] label + div,
+        [data-testid="stFileUploader"] div[data-testid="stFileUploaderDropzone"] {
+            background-color: #000000 !important;
+            border-color: #444444 !important;
+        }
+
+        /* Ensure text in the upload box is white */
+        [data-testid="stFileUploader"] div[data-testid="stFileUploaderDropzone"] p {
+            color: white !important;
+        }
+
+        /* Specific targeting for the browse files button area */
+        [data-testid="stFileUploader"] button[kind="secondary"] {
+            background-color: #2d3b80 !important;
+            color: white !important;
+        }
+
+        /* Target the actual browse button */
+        [data-testid="stFileUploader"] button[kind="secondary"] div {
+            color: white !important;
+        }
+
+        /* Additional targeting for newer Streamlit versions */
+        .st-emotion-cache-u8hs99, 
+        .st-emotion-cache-vskyf7, 
+        .st-emotion-cache-16txtl3,
+        .st-emotion-cache-1avcm0n,
+        .st-emotion-cache-zq5wmm {
+            background-color: #000000 !important;
+            border-color: #444444 !important;
+        }
+
+        /* More comprehensive file uploader targeting */
+        .css-demzbm, .css-1s0xjgm,
+        .st-emotion-cache-demzbm, .st-emotion-cache-1s0xjgm,
+        .css-12oz5g7, .st-emotion-cache-12oz5g7,
+        .css-4oy321, .st-emotion-cache-4oy321 {
+            background-color: #000000 !important;
+        }
     """
     
     # Common styles for both themes
@@ -391,7 +445,7 @@ with col_header:
     # Create a small column on the right for the toggle button
     _, _, _, toggle_col = st.columns([10, 10, 10, 2])
     with toggle_col:
-        mode_label = "🌙 Dark" if st.session_state.theme == "light" else "☀️ Light"
+        mode_label = "🌙" if st.session_state.theme == "light" else "☀️"
         if st.button(mode_label, key="theme_toggle"):
             toggle_theme()
 
