@@ -701,3 +701,4 @@ st.markdown(f'''
     <p>© 2025 TaxNova Assistant | Current Financial Year: 2024-25</p>
 </div>
 ''', unsafe_allow_html=True)
+st.write(st.secrets)
