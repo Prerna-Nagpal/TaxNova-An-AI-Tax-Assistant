@@ -29,12 +29,13 @@ TaxNova is designed to make tax finalization stress-free and efficient. Using AI
    pip install -r requirements.txt
    ```
 3. **Set up your API key**:
-Create a .streamlit/secrets.toml file in the project root
-Add your API key:
-GROQ_API_KEY=""
-LLAMA_CLOUD_API_KEY=""
-QDRANT_API_KEY=""
-3. **Run the application**:
+   Create a `.streamlit/secrets.toml` file in the project root and add your API keys:
+   ```toml
+   GROQ_API_KEY=""
+   LLAMA_CLOUD_API_KEY=""
+   QDRANT_API_KEY=""
+   ```
+4. **Run the application**:
    ```bash
    streamlit run app.py
    ```
@@ -64,4 +65,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any queries, reach out via email: **nagpalprerna4@gmail.com**
 
 ---
-**TaxNova – Making Tax Filing Effortless with AI!** 🚀
+**TaxNova – Making Tax Filing Effortless with AI!** 
