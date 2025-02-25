@@ -8,6 +8,7 @@ Once the income details are extracted, TaxNova intelligently identifies applicab
 To further simplify the process, a real-time AI-powered chatbot assists users by answering tax-related queries, offering tax-saving tips, and providing personalized recommendations. The system generates a tax summary with a breakdown of earnings, deductions, and liabilities, ensuring clarity before filing. Finally, with a one-click auto-fill feature, users can directly submit their ITR, making tax filing effortless, accurate, and cost-effective—eliminating the need for a Chartered Accountant.
 ## System Architecture:
 <img width="376" alt="image" src="https://github.com/user-attachments/assets/d1ef01b5-67c7-4ddc-86c1-7fc422a42b61" />
+
 ## Features
 - **AI Chatbot for Tax Guidance**: Get real-time answers to tax-related queries.
 - **PDF Processing**: Extract financial details from Form 16/22 using **pdfplumber** and **regex**.
