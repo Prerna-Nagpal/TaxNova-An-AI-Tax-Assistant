@@ -267,7 +267,7 @@ def local_css():
 
         /* Specific targeting for the browse files button area */
         [data-testid="stFileUploader"] button[kind="secondary"] {
-            background-color: #2d3b80 !important;
+            background-color: #000000 !important;
             color: white !important;
         }
 
@@ -292,6 +292,21 @@ def local_css():
         .css-12oz5g7, .st-emotion-cache-12oz5g7,
         .css-4oy321, .st-emotion-cache-4oy321 {
             background-color: #000000 !important;
+        }
+        
+        /* Target the browse files button specifically */
+        .css-1offfwp, .st-emotion-cache-1offfwp {
+            background-color: #2d3b80 !important;
+            color: white !important;
+        }
+
+        /* Target the dropzone background comprehensively */
+        .css-1l4firl, .st-emotion-cache-1l4firl,
+        .css-1erivj1, .st-emotion-cache-1erivj1,
+        .css-9ycgxx, .st-emotion-cache-9ycgxx,
+        .css-jgnu5, .st-emotion-cache-jgnu5 {
+            background-color: #000000 !important;
+            border-color: #444444 !important;
         }
     """
     
@@ -520,10 +535,11 @@ col1, col2 = st.columns([2, 3])
 # COLUMN 1 (LEFT) - Form 16 Analysis
 with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.subheader("📄 Form 16 Analysis")
+    st.subheader("📄 Form 16/22 Analysis")
     
     # Improved file uploader
-    uploaded_file = st.file_uploader("Upload your Form 16 (PDF)", type=["pdf"])
+    uploaded_file = st.file_uploader("Upload your Form 16/22 (PDF)", type=["pdf"])
+    st.caption("form 16 for employees\n,form 22 for businessman/entrepreneurs")
     
     if uploaded_file:
         with st.spinner("Analyzing your Form 16..."):
