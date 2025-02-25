@@ -18,7 +18,7 @@ TaxNova is a **Streamlit-based web application** designed to simplify tax filing
 ## 📌 Installation & Setup
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/TaxNova.git
+   git clone https://github.com/Prerna-Nagpal/TaxNova-An-AI-Tax-Assistant.git
    cd TaxNova
    ```
 2. **Install dependencies**:
