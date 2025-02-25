@@ -9,7 +9,7 @@ import requests
 from datetime import datetime
 import pandas as pd
 st.write(st.secrets)  # Debugging: Prints all secrets
-st.write(st.secrets["GROQ_API_KEY"])  # Prints the specific key if it exists
+st.write(st.secrets["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"])  # Prints the specific key if it exists
 # Initialize theme in session state if not already present
 if "theme" not in st.session_state:
     st.session_state.theme = "light"
