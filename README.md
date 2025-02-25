@@ -21,7 +21,8 @@ Built using Streamlit for an interactive, user-friendly tax filing experience.
 - **AI Chatbot**:
 Groq API – Provides intelligent, real-time responses to tax-related queries.
 Llama Cloud – Enhances natural language processing (NLP), enabling the chatbot to understand complex tax-related questions and generate accurate responses.
-Qdrant AI – A vector database that enhances semantic search and contextual memory, allowing efficient retrieval of tax laws, past user queries, and historical interactions. - **Form 16/22 Processing**:
+Qdrant AI – A vector database that enhances semantic search and contextual memory, allowing efficient retrieval of tax laws, past user queries, and historical interactions.
+ - **Form 16/22 Processing**:
 pdfplumber – Extracts text from PDF documents.
 Regex – Identifies and extracts key financial details like gross salary, TDS, and taxable income.
 - **Tax Computation Engine**:
