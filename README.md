@@ -74,6 +74,15 @@ TaxNova/
 - Support for **multiple tax regimes and deductions**.
 - Advanced AI for **personalized tax planning**.
 - Mobile application version.
+## Frontend Screenshots
+
+![Frontend1](images/Frontend1.png)
+![Frontend2](images/Frontend2.png)
+![Frontend3](images/Frontend3.png)
+![Frontend4](images/Frontend4.png)
+![Frontend5](images/Frontend5.png)
+![Frontend6](images/Frontend6.png)
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
