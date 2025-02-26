@@ -77,10 +77,15 @@ TaxNova/
 ## Frontend Screenshots
 
 ![Frontend1](TaxNova/images/Frontend1.png)
+
 ![Frontend2](TaxNova/images/Frontend2.png)
+
 ![Frontend3](TaxNova/images/Frontend3.png)
+
 ![Frontend4](TaxNova/images/Frontend4.png)
-![Frontend5](TaxNovaimages/Frontend5.png)
+
+![Frontend5](TaxNova/images/Frontend5.png)
+
 ![Frontend6](TaxNova/images/Frontend6.png)
 
 
