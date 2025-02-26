@@ -76,12 +76,12 @@ TaxNova/
 - Mobile application version.
 ## Frontend Screenshots
 
-![Frontend1](images/Frontend1.png)
-![Frontend2](images/Frontend2.png)
-![Frontend3](images/Frontend3.png)
-![Frontend4](images/Frontend4.png)
-![Frontend5](images/Frontend5.png)
-![Frontend6](images/Frontend6.png)
+![Frontend1](TaxNova/images/Frontend1.png)
+![Frontend2](TaxNova/images/Frontend2.png)
+![Frontend3](TaxNova/images/Frontend3.png)
+![Frontend4](TaxNova/images/Frontend4.png)
+![Frontend5](TaxNovaimages/Frontend5.png)
+![Frontend6](TaxNova/images/Frontend6.png)
 
 
 ## License
